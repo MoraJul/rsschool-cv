@@ -1,8 +1,6 @@
-**Julia Akulova**
+# **Julia Akulova**
 
 ---
-
-#
 
 City Minsk
 
