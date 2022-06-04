@@ -1,1 +1,1 @@
-# https://MoraJul.github.io/rsschool-cv/cv
+# https://MoraJul.github.io/rsschool-cv/
