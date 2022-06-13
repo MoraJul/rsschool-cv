@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'Ubuntu-Regular';
+  src: url("assets/fonts/Ubuntu-Regular.ttf");
+  font-weight: 300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Ubuntu-Regular', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #F2F2F0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* General */
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  flex: 1;
+}
+
+/* Header */
+
+.header {
+  background-color: #7A8D9B;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 0 20px;
+  line-height: 50px;
+  color: #F2F2F0;
+  font-weight: bold;
+  font-size: 20px;
+  transition: .3s;
+  transition: color 0.5s;
+}
+
+.nav-link:hover {
+  color: #5d7260;
+}
+
+/* Main */
+
+.main {
+  color: #464242;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: stretch; */
+}
+
+/* Box */
+
+.box {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  padding: 10px;
+  line-height: 20px;
+  border-bottom: 5px solid #DABEB6;
+}
+
+.avatar {
+  justify-content: center;
+  align-items: center;
+}
+
+.caption {
+  text-align: center;
+  line-height: 40px;
+  font-size: 150%;
+  font-variant: small-caps;
+}
+
+/* Section */
+
+.section {
+  display: flex;
+  width: 48%;
+  padding: 10px;
+  line-height: 20px;
+  flex-direction: column;
+  border-bottom: 3px solid #EED0C6;
+  margin: 1%;
+
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+.section-item {
+  margin: 10px;
+}
+
+.section-title {
+  color: #464242;
+  letter-spacing: 3px;
+}
+
+.section-text {
+  line-height: 25px;
+}
+
+.section-link {
+  color: #464242;
+  padding: 0 10px;
+  margin: 0;
+}
+
+/* Footer */
+
+.footer {
+  background: #7A8D9B;
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  color: #F2F2F0;
+}
+
+.footer-rsschool {
+  margin: 20px 0;
+  display: flex;
+  width: 50%;
+
+}
+
+.footer-author {
+  color: #F2F2F0;
+}
