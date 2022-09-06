@@ -34,7 +34,7 @@
     <div class="container main-container">
 
       <div class="box avatar">
-        <img src="assets/img/1.jpg" alt="My photo" width="258" height="196">
+        <img class="main-photo" src="assets/img/1.jpg" alt="My photo">
       </div>
 
       <section class="box caption">
@@ -91,29 +91,34 @@
       <section class="section" id="Code">
         <h2 class="section-title">Code</h2>
         <code>
-          <span>function multiply(a, b){</span><br/>
-          <span>&nbsp;&nbsp; return a * b;</span><br/>
-          <span>}</span> <br/>
+          <span>function multiply(a, b){</span><br>
+          <span>&nbsp;&nbsp; return a * b;</span><br>
+          <span>}</span> <br>
          </code>
       </section>
 
       <section class="section" id="Projects">
         <h2 class="section-title">Projects</h2>
         <a class="section-link" href="https://github.com/MoraJul/rsschool-cv/tree/rsschool-cv-html" target="_blank">
-          <p>CV RS School</p>
+          <span>CV RS School</span>
         </a>
+        <a class="section-link" href="https://rolling-scopes-school.github.io/morajul-JSFEPRESCHOOL2022Q2/travel/"
+          target="_blank">
+          <span>Travel</span>
+        </a>
+
 
       </section>
 
       <section class="section" id="Education">
         <h2 class="section-title">Education</h2>
-        <p>Belarusian State University of Informatics and Radioelectronics</p>
+        <p class="section-item">Belarusian State University of Informatics and Radioelectronics</p>
 
       </section>
 
       <section class="section" id="Languages">
         <h2 class="section-title">Languages</h2>
-        <p>English B1</p>
+        <p class="section-item">English B1</p>
 
       </section>
 
@@ -123,19 +128,19 @@
 
   <footer class="footer">
     <div class="container">
-      <p class="box">Almost before we knew it, we had left the ground.</p>
-      <a class="section-link footer-author" href="https://github.com/MoraJul" target="_blank">
-        <span>© MoraJul 2022</span>
-      </a>
-      <a class="footer-rsschool" href="https://rs.school/js/" target="_blank">
-        <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool-logo" />
-      </a>
-
+      <div class="footer-content">
+        <div class="footer-quote">
+          <p class="quote">Almost before we knew it, we had left the ground.</p>
+          <a class="section-link footer-author" href="https://github.com/MoraJul" target="_blank">
+            <span>© MoraJul 2022</span>
+          </a>
+        </div>
+          <a class="footer-rsschool" href="https://rs.school/js/" target="_blank">
+            <img class="rsschool-logo" src="https://rs.school/images/rs_school_js.svg" alt="rsschool-logo">
+          </a>
+      </div>
     </div>
   </footer>
-
-
-
 </body>
 
 </html>
